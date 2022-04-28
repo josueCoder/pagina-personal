@@ -4,35 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
     <title>Rody Josue Ccoyllo Cule</title>
 </head>
 <body class="body">
     <header class="header">
         <nav class="header-nav">
             <a class="header-nav__logo-container" href="#">
-                <img src="./img/rody-josue-perfil.jpg" alt="foto de perfil">
+                <img class="header-nav__logo-porfile" src="./img/rody-josue-perfil.jpg" alt="foto de perfil">
             </a>
             <figure class="header-nav__menu-container">
-             
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="header-nav__menu-icon" id="headerNavMenuIcon">
+                    <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+                </svg>
             </figure>
-            <ul class="header-nav__list-container">
+            <ul class="header-nav__list-container" id="headerNavListContainer">
                 <li class="header-nav__list-item">
-                    Perfil
+                    <a class="header-nav__list-item_link" href="#main">Perfil</a>
                 </li>
                 <li class="header-nav__list-item">
-                    Experiencia
+                    <a class="header-nav__list-item_link" href="#experience">Experiencia</a>
                 </li>
                 <li class="header-nav__list-item">
-                    Habilidades
+                    <a class="header-nav__list-item_link" href="#skills">Habilidades</a>
                 </li>
                 <li class="header-nav__list-item">
-                    Contacto
+                    <a class="header-nav__list-item_link" href="#cantac">Contacto</a>
                 </li>
             </ul>
         </nav>
     </header>
-    <main class="main"> 
+    <main class="main" id="main"> 
         <article class="article">
             <h1 class="article__title">Hola,Soy Rody Josue Desarrollador Full Stack</h1>
             <p class="article__description">
@@ -48,7 +54,7 @@
             </figure>
         </article>
     </main>
-    <section class="experience">
+    <section class="experience" id="experience">
         <div class="experiencie-container">
             <h2 class="experience__title">💻Experiencia💻</h2>
             <div class="experience__experiences">
@@ -100,12 +106,12 @@
 
         </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="projects-container">
             <h2 class="projects__title">Proyectos</h2>
         </div>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="skills__container">
             <h2 class="skills__title">🧑‍💻Skills🧑‍💻</h2>
             <ul class="skills__skills-container">
@@ -123,7 +129,7 @@
             </ul>
         </div>
     </section>
-    <section class="contac">
+    <section class="contac" id="contac">
         <div class="contac-container">
             <h2 class="contac__title">📲Contacto📲</h2>
             <form class="contac__form-container" action="#">
@@ -134,7 +140,7 @@
             </form>
         </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="footer-container">
             <ul class="footer__social-media-container">
                 <li class="footer__social-media__item"></li>
@@ -145,5 +151,6 @@
             <p class="footer__social-media__credits">Copyright&copy; Rody Josue.Todos los derechos reservados</p>
         </div>
     </footer>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
