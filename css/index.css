@@ -216,3 +216,7 @@
     font-weight: 600;
    
 }
+.wave-separator--r-180deg{
+    transform: rotate(180deg);
+    margin: -0.5rem 0 0 0;
+}
