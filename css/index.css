@@ -160,15 +160,59 @@
 }
 .porfil__image-porfil{
     width: 100%;
-
+}
+.wave-separator{
+    margin: -2px;
 }
 
 .wave-separator__wave-separator-container{
     margin: 0;
-
 }
 .wave-separator__wave-separator{
     display: flex;
     width: 100%;
+}
 
+.experience{
+    padding: 2rem 0;
+    background-color: var(--text-color);
+    color: var(--theme-color);
+    
+}
+.experiencie-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+
+}
+.experience__title{
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    margin: 0;
+
+}
+
+.experience__experience__date{
+    margin: 0;
+    font-size: 1rem;
+    color: var(--my-color);
+}
+.experience__experience__enterprise{
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.experience__experience__jop{
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--my-color);
+    
+}
+.experience__experience__functions-function{
+    margin: 0;
+    font-weight: 600;
+   
 }
