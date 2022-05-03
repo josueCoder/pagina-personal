@@ -162,3 +162,13 @@
     width: 100%;
 
 }
+
+.wave-separator__wave-separator-container{
+    margin: 0;
+
+}
+.wave-separator__wave-separator{
+    display: flex;
+    width: 100%;
+
+}
