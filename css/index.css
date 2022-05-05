@@ -346,5 +346,61 @@
     
 }
 
+.skills{
+    padding: 2rem 0;
+
+}
+.skills__container{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    
+    
+    
+
+}
+.skills__title{
+    font-size: 1.5rem;
+    margin: 0;
+
+}
+.skills__title::before{
+    content: '🧑‍💻';
+
+}
+.skills__title::after{
+    content: '🧑‍💻';
+
+}
+.skills__skills-container{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.skills__skills__skill{
+    padding: 8px;
+    background-color: var(--text-color);
+    color: var(--theme-color);
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    transition: all 0.5s;
+
+}
+.skills__skills__skill:hover{
+    box-shadow: 0 0 0.5rem 0.25rem var(--my-color);
+    transform: scale(1.2);
+    transition: all 0.5s;
+}
+
+
 
 
