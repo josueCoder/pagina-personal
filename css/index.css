@@ -193,6 +193,14 @@
     margin: 0;
 
 }
+.experience__title::before{
+    content: '💻';
+}
+.experience__title::after{
+    content: '💻';
+}
+
+
 
 .experience__experience__date{
     margin: 0;
@@ -400,6 +408,69 @@
     transform: scale(1.2);
     transition: all 0.5s;
 }
+.contac{
+    padding: 2rem 0;
+
+}
+.contac-container{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.contac__title{
+    margin: 0;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+}
+.contac__title::before{
+    content: '📲';
+}
+
+.contac__title::after{
+    content: '📲';
+}
+.contac__form-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+.contac__form__input{
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    border: solid 0.2rem var(--text-color);
+    outline: none;
+    background-image: linear-gradient(to right,var( --theme-color),#34d69b71,var( --theme-color) );
+    font-weight: 700;
+}
+.contac__form__input:focus{
+    box-shadow: 0 0 0 2px var(--my-text-color);
+    
+}
+
+.contac__form__button{
+    align-self: center;
+    font-size: 1.2rem;
+    border: solid #61dafb;
+    background-color: var(--my-color);
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    font-weight: 700;
+    transition: all 0.5s;
+
+}
+.contac__form__button:hover{
+    background-color: var(--theme-color);
+    border: solid 0.1rem var(--text-color);
+   
+}
+
+
 
 
 
