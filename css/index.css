@@ -521,6 +521,53 @@
 
 }
 
+@media(min-width:854px){
+
+    .header-nav,
+    .porfil-container,
+    .experiencie-container,
+    .projects-container,
+    .skills__container,
+    .contac-container,
+    .footer-container{
+        max-width: 1024px;
+        margin: auto;
+        padding: 0;
+
+
+    }
+    .header-nav__menu-container{
+        display: none;
+    }
+    .header-nav__list-container{
+        position: static;
+        display: flex;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+        
+
+    }
+    .header-nav__list-item_link{
+        color: var(--text-color);
+        font-size: 1rem;
+
+    }
+    .header-nav__list-item_link:hover{
+       color: var(--my-color);
+       border-bottom:solid 0.2rem var(--my-text-color);
+       transition: all 0.5s;
+    }
+
+    
+
+
+
+
+
+}
+
+
 
 
 
