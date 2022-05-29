@@ -4,10 +4,321 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600;700;900&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300&family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet"/>
     <title>Rody Josue Ccoyllo Cule</title>
 </head>
-<body>
-    <h1>Rody Josue Ccoyllo Cule</h1>
+<body class="body">
+    <header class="header">
+        <nav class="header-nav">
+            <a class="header-nav__logo-container" href="#">
+                <img class="header-nav__logo-porfile" src="./img/rody-josue-perfil.jpg" alt="foto de perfil">
+            </a>
+            <figure class="header-nav__menu-container">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="black" class="header-nav__menu-icon" id="headerNavMenuIcon">
+                    <path d="M4 6h16v2H4zm4 5h12v2H8zm5 5h7v2h-7z"></path>
+                </svg>
+            </figure>
+            <ul class="header-nav__list-container" id="headerNavListContainer">
+                <li class="header-nav__list-item">
+                    <a class="header-nav__list-item_link" href="#main">Perfil</a>
+                </li>
+                <li class="header-nav__list-item">
+                    <a class="header-nav__list-item_link" href="#experience">Experiencia</a>
+                </li>
+                <li class="header-nav__list-item">
+                    <a class="header-nav__list-item_link" href="#skills">Habilidades</a>
+                </li>
+                <li class="header-nav__list-item">
+                    <a class="header-nav__list-item_link" href="#cantac">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main" id="main"> 
+        <article class="porfil" id="porfil">
+            <div class="porfil-container">
+                <div class="porfil__info">
+                    <h1 class="porfil__info__title">Hola,Soy Rody Josue Desarrollador Full Stack</h1>
+                    <p class="porfil__info__description">
+                        Estudiante de ingenieria de Computacion y Sistemas,apacionado
+                        por el mundo del desarrollo de software,escalable y mantenible.
+                    </p>
+                    <div class="porfil__info-link-container">
+                        <a class="porfil__info-link" href="#">CV</a>
+                        <a class="porfil__info-link" href="#">Portafolio</a>
+                    </div>
+                </div>
+                <div class="porfil__cover-image">
+                    <figure class="porfil__image-container">
+                        <img class="porfil__image-porfil" src="./img/rody-josue-perfil.jpg" alt="foto de perfil"/>
+                    </figure>
+                </div>
+            </div>
+        </article>
+    </main>
+    <section class="wave-separator">
+        <figure class="wave-separator__wave-separator-container">
+            <img class="wave-separator__wave-separator" src="./img/wave.svg" alt="wave de separacion"/>
+        </figure>
+    </section>
+    <section class="experience" id="experience">
+        <div class="experiencie-container">
+            <h2 class="experience__title">Experiencia</h2>
+            <div class="experience__experiences">
+                <section class="experience__experience">
+                    <h3 class="experience__experience__date">Octubre 2021.Presente</h3>
+                    <h3 class="experience__experience__enterprise">Mandu</h3>
+                    <h4 class="experience__experience__jop">Software Engineer</h4>
+                    <ul class="experience__experinece__functions-container">
+                        <li class="experience__experience__functions-function">
+                            Mantenimiento web:Actualizacion de diseño. Optimizacion y 
+                            adicion de funcionalidades.
+                        </li>
+                        <li class="experience__experience__functions-function">
+                            Maquetacion web de diseños Figma en Laravel
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="experience__experience">
+                    <h3 class="experience__experience__date">Marzo 2021-Diciembre 2021</h3>
+                    <h3 class="experience__experience__enterprise">Driven</h3>
+                    <h4 class="experience__experience__jop">Frontend Developer</h4>
+                    <ul class="experience__experinece__functions-container">
+                        <li class="experience__experience__functions-function">
+                            Desarrollo de aplicaciones Ecomerse con VTEX IO 
+                            y React bajo el marco de trabajo Scrum
+                        </li>
+                        <li class="experience__experience__functions-function">
+                            Maquetacion web de diseños Figma en React.
+                        </li>
+                    </ul>
+
+                </section>
+                <section class="experience__experience">
+                    <h3 class="experience__experience__date">Abril 2020-Diciembre 2020</h3>
+                    <h3 class="experience__experience__enterprise">Tecsup</h3>
+                    <h4 class="experience__experience__jop">Docente</h4>
+                    <ul class="experience__experinece__functions-container">
+                        <li class="experience__experience__functions-function">
+                            Curso Fronted
+                        </li>
+                        <li class="experience__experience__functions-function">
+                            Curso Bakend
+                        </li>
+                    </ul>
+
+                </section>
+            </div>
+
+        </div>
+    </section>
+    <section class="wave-separator--r-180deg">
+        <figure class="wave-separator__wave-separator-container">
+            <img class="wave-separator__wave-separator" src="./img/wave.svg" alt="wave separador">
+        </figure>
+    </section>
+    <section class="projects" id="projects">
+        <div class="projects-container">
+            <h2 class="projects__title">Proyectos</h2>
+            <div class="projects__projects">
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+                <article class="projects__project">
+                    <figure class="projects__project-image-container">
+                        <img class="projects__project-image" src="./img/img-card-personal.png" alt="">
+
+                    </figure>
+                    <div class="projects__project-data">
+                        <h2 class="projects__project-data-title">Card Personal</h2>
+                        <h3 class="projects__project-data-core-tecnology">HTML | CSS</h3>
+                        <h4 class="projects__project-data-tecnologies">JavaScript</h4>
+                        <p class="projects__project-data-about">
+                            Targeta Personal,donde se muestra el perfil profecional
+                            y las tecnologias que se dominan.
+                        </p>
+
+                    </div>
+                    <div class="projects__project-button-container">
+                        <a class="projects__project-button--bg-gold" href="#">Demo</a>
+                        <a class="projects__project-button" href="#">Codigo</a>
+                    </div>
+                </article>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="skills__container">
+            <h2 class="skills__title">Skills</h2>
+            <ul class="skills__skills-container">
+                <li class="skills__skills__skill">HTML</li>
+                <li class="skills__skills__skill">CSS</li>
+                <li class="skills__skills__skill">JavaScript</li>
+                <li class="skills__skills__skill">React</li>
+                <li class="skills__skills__skill">Node JS</li>
+                <li class="skills__skills__skill">Bootstrap</li>
+                <li class="skills__skills__skill">Java</li>
+                <li class="skills__skills__skill">Python</li>
+                <li class="skills__skills__skill">Django</li>
+                <li class="skills__skills__skill">SCRUM</li>
+                <li class="skills__skills__skill">SQL</li>
+                <li class="skills__skills__skill">MySQL</li>
+                <li class="skills__skills__skill">PostgreSQL</li>
+                <li class="skills__skills__skill">UX/UI</li>
+                <li class="skills__skills__skill">BEM</li>
+                <li class="skills__skills__skill">Calidad de Software</li>
+            </ul>
+        </div>
+    </section>
+    <section class="contac" id="contac">
+        <div class="contac-container">
+            <h2 class="contac__title">Contacto</h2>
+            <form class="contac__form-container" action="#">
+                <input class="contac__form__input" type="text" name="txtName" id="txtName" placeholder="Nombres" required/>
+                <input class="contac__form__input" type="email" name="txtEmail" id="txtEmail" placeholder="Correo" required/>
+                <input class="contac__form__input" type="tel" pattern="[0-9]{9}" title="Debe ingresar 9 digitos" placeholder="Telefono" required/>
+                <textarea class="contac__form__input" name="txtContact" id="" cols="30" rows="4" placeholder="Mensaje....."></textarea>
+                <button class="contac__form__button" >Enviar</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <ul class="footer__social-media-container">
+                <li class="footer__social-media__item">
+                    <a class="footer__social-media__item-link" href="https://www.linkedin.com/in/rody-josue-ccoyllo-cule-44b401237/">
+                        <i class="fab fa-linkedin footer__social-media__item-icon"></i>
+                    </a>
+                </li>
+                <li class="footer__social-media__item">
+                    <a class="footer__social-media__item-link" href="https://github.com/josueCoder">
+                        <i class="fab fa-github-square footer__social-media__item-icon"></i>
+                    </a>
+                </li>
+                <li class="footer__social-media__item">
+                    <a class="footer__social-media__item-link" href="#">
+                        <i class="fab fa-twitter-square footer__social-media__item-icon"></i>
+                    </a>
+                </li>
+                <li class="footer__social-media__item">
+                    <a class="footer__social-media__item-link" href="#">
+                        <i class="fab fa-facebook-square footer__social-media__item-icon"></i>
+                    </a>
+                </li>
+            </ul>
+            <p class="footer__social-media__credits">Copyright&copy; <a class="footer__social-media__credits-author" href="#porfil">Rody Josue</a>.Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="./js/index.js" type="module"></script>
 </body>
 </html>
