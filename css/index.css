@@ -463,7 +463,7 @@
 .contac__form__button{
     align-self: center;
     font-size: 1.2rem;
-    border: solid #61dafb;
+    border:var(--my-color);
     background-color: var(--my-color);
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -474,7 +474,7 @@
 }
 .contac__form__button:hover{
     background-color: var(--theme-color);
-    border: solid 0.1rem var(--text-color);
+    box-shadow: 0 0 0 0.1rem var(--text-color);
    
 }
 
@@ -503,13 +503,16 @@
     list-style: none;
   
 }
+.footer__social-media__item-link{
+    text-decoration: none;
+    color: var(--my-color);
+}
 .footer__social-media__item-icon{
     font-size: 2.3rem; 
     cursor: pointer;
     transition: all 0.5s;  
 }
 .footer__social-media__item-icon:hover{
-    color: var(--my-color);
     transform: scale(1.3);  
     transition: all 0.5s; 
    
