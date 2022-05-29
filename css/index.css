@@ -353,12 +353,12 @@
 }
 .projects__project-button--bg-gold:hover{
     background-color: var(--theme-color);
-    border: solid 0.1rem var(--text-color);
+    box-shadow: 0 0 0 0.1rem var(--text-color);
    
 }
 .projects__project-button:hover{
     background-color: var(--theme-color);
-    border: solid 0.1rem var(--text-color); 
+    box-shadow: 0 0 0 0.1rem var(--text-color);
     
 }
 
@@ -580,6 +580,14 @@
     .porfil__cover-image{
         flex: 1;
         justify-content: center;
+    }
+
+
+    .projects__projects{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+      
+    
     }
    
 
